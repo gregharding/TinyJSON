@@ -434,8 +434,9 @@ namespace TinyJSON
 		}
 
 
-		private static void SupportValueTypesForAOT()
+		public static void SupportValueTypesForAOT()
 		{
+			SupportTypeForAOT<Byte>();
 			SupportTypeForAOT<Int16>();
 			SupportTypeForAOT<UInt16>();
 			SupportTypeForAOT<Int32>();
