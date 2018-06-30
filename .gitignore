@@ -1,4 +1,5 @@
 .DS_Store
+.vs/
 /UnitTests/bin/
 /UnitTests/obj/
 /UnitTests-iOS/bin/
